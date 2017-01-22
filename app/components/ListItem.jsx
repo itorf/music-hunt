@@ -1,9 +1,11 @@
 var React = require('react');
 
-module.exports = React.createClass({
-  render: function() {
+var ListItem = React.createClass({
+  render() {
     return(
       <div>{this.props.item.title}</div>
     )
   }
 });
+
+module.exports = ListItem;

@@ -1,8 +1,19 @@
 var React = require('React');
 var ListItem = require('./ListItem.jsx');
+// var nuclear = require('nuclear-js');
+// var Reactor = nuclear.Reactor;
 
-module.exports = React.createClass({
-  render: function() {
+var List = React.createClass({
+  // TODO: implementing Nuclear framework. Mixins??
+  // mixins: [reactor.ReactMixin],
+  //
+  // getDataBindings() {
+  //   return {
+  //     items:
+  //   }
+  // },
+
+  render() {
     console.log('this is happening');
     console.log(this.props);
     return (
@@ -21,3 +32,5 @@ module.exports = React.createClass({
     );
   }
 });
+
+module.exports = List;

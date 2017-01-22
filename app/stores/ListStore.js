@@ -3,7 +3,7 @@ var dispatcher = require('../dispatcher');
 function ListStore() {
   var listeners = [];
   var items = [
-    {title: 'song number A'},
+    {title: 'song number C'},
     {title: 'song number B'}
   ];
 
